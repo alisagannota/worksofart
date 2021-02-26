@@ -579,7 +579,7 @@ a {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .info{
         font-size: 0.4em;
         margin-top: 6em;
