@@ -582,7 +582,7 @@ a {
 @media screen and (max-width: 375px) {
     .info{
         font-size: 0.4em;
-        margin-top: 5em;
+        margin-top: 6em;
     }
 
     .art {
@@ -591,7 +591,7 @@ a {
         grid-template-rows: 4.15em 2.3em 1.95em 2.7em 3.2em 0.7em 0.6em 0.55em; 
         min-height: 50vh; 
         width: 100%;
-        padding-top: 5em;
+        padding-top: 8em;
     }
     .block1 {
         border-width: 0em 0.25em 0.25em 0em;
@@ -786,144 +786,55 @@ a {
     }
     
     .block45 {
-        grid-column-start: 4;
-        grid-row-start: 6;
-        grid-row-end: 7;
-        background-color: blue;
         border-width: 0em 0.25em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block46 {
-        grid-column-start: 4;
-        grid-row-start: 7;
-        grid-row-end: 9;
-        background-color: white;
         border-width: 0em 0.25em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block47 {
-        grid-column-start: 5;
-        grid-row-start: 5;
-        grid-row-end: 9;
-        background-color: white;
         border-width: 0.25em 0.25em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block48 {
-        grid-column-start: 6;
-        grid-row-start: 5;
-        background-color: red;
         border-width: 0.25em 0.25em 0.25em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block49 {
-        grid-column-start: 6;
-        grid-row-start: 6;
-        grid-row-end: 8;
-        background-color: white;
         border-width: 0.25em 0.25em 0.25em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block50 {
-        grid-column-start: 6;
-        grid-row-start: 8;
-        grid-row-end: 9;
-        background-color: white;
         border-width: 0.25em 0.25em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block51 {
-        grid-column-start: 7;
-        grid-row-start: 5;
-        background-color: white;
         border-width: 0.25em 0.25em 0.25em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block52 {
-        grid-column-start: 7;
-        grid-row-start: 6;
-        grid-row-end: 8;
-        background-color: white;
         border-width: 0.25em 0.25em 0.25em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block53 {
-        grid-column-start: 7;
-        grid-row-start: 8;
-        grid-row-end: 9;
-        background-color: white;
         border-width: 0.25em 0.25em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block54 {
-        grid-column-start: 8;
-        grid-row-start: 5;
-        grid-row-end: 9;
-        background-color: white;
         border-width: 0.25em 0.25em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block55 {
-        grid-column-start: 9;
-        grid-row-start: 5;
-        grid-row-end: 9;
-        background-color: white;
         border-width: 0.25em 0em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block56 {
-        grid-column-start: 9;
-        grid-row-start: 6;
-        grid-row-end: 7;
-        background-color:red;
         border-width: 0em 0em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
     
     .block57 {
-        grid-column-start: 9;
-        grid-row-start: 7;
-        grid-row-end: 9;
-        background-color: white;
         border-width: 0em 0em 0em 0.25em;
-        border-style: solid;
-        border-color: black;
-    
     }
 
 
