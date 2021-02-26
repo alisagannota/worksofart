@@ -1,0 +1,579 @@
+html body {
+    background-color: rgb(255, 196, 0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.info{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(135, 126, 218);
+    padding: 0.5em;
+    margin: 2em 5em;
+    border: 0.8em solid white;
+
+}
+
+.art {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 4.7em 3.5em 2.5em 1.9em 6.5em 5.7em 2em 3.3em 1.2em;
+   grid-template-rows: 8.3em 4.6em 3.9em 5.4em 6.4em 1.4em 1.8em 1.1em; 
+    min-height: 50vh; 
+    width: 100%;
+}
+
+.block1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    background-color: yellow;
+    border-width: 0em 0.5em 0.5em 0em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block3 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block4 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block5 {
+    grid-column-start: 5;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block6 {
+    grid-column-start: 6;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block7 {
+    grid-column-start: 7;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block8 {
+    grid-column-start: 8;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block9 {
+    grid-column-start: 9;
+    grid-row-start: 1;
+    background-color: white;
+    border-width: 0em 0em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block10 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-color: white;
+    border-width: 0.5em 0.5em 0.5em 0em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block11 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block12 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block13 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block14 {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block15 {
+    grid-column-start: 6;
+    grid-row-start: 2;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block16 {
+    grid-column-start: 7;
+    grid-row-start: 2;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block17 {
+    grid-column-start: 8;
+    grid-row-start: 2;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block18 {
+    grid-column-start: 9;
+    grid-row-start: 2;
+    background-color: white;
+    border-width: 0.5em 0em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+.block19 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    background-color: white;
+    border-width: 0.5em 0.5em 0.5em 0em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+.block20 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block21 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block22 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block23 {
+    grid-column-start: 5;
+    grid-row-start: 3;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block24 {
+    grid-column-start: 6;
+    grid-row-start: 3;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block25 {
+    grid-column-start: 7;
+    grid-row-start: 3;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block26 {
+    grid-column-start: 8;
+    grid-row-start: 3;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block27 {
+    grid-column-start: 9;
+    grid-row-start: 3;
+    background-color: white;
+    border-width: 0.5em 0em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block28 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    background-color: white;
+    border-width: 0.5em 0.5em 0.5em 0em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block29 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block30 {
+    grid-column-start: 3;
+    grid-row-start: 4;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block31 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block32 {
+    grid-column-start: 5;
+    grid-row-start: 4;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+.block33 {
+    grid-column-start: 6;
+    grid-row-start: 4;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+
+.block34 {
+    grid-column-start: 7;
+    grid-row-start: 4;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+
+.block35 {
+    grid-column-start: 8;
+    grid-row-start: 4;
+    background-color: white;
+    border: 0.5em solid black;
+
+}
+
+
+.block36 {
+    grid-column-start: 9;
+    grid-row-start: 4;
+    background-color: white;
+    border-width: 0.5em 0em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+.block37 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block38 {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block39 {
+    grid-column-start: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: blue;
+    border-width: 0em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block40 {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block41 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block42 {
+    grid-column-start: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: blue;
+    border-width: 0em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block43 {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block44 {
+    grid-column-start: 4;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block45 {
+    grid-column-start: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: blue;
+    border-width: 0em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block46 {
+    grid-column-start: 4;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block47 {
+    grid-column-start: 5;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block48 {
+    grid-column-start: 6;
+    grid-row-start: 5;
+    background-color: red;
+    border-width: 0.5em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block49 {
+    grid-column-start: 6;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    background-color: white;
+    border-width: 0.5em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block50 {
+    grid-column-start: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block51 {
+    grid-column-start: 7;
+    grid-row-start: 5;
+    background-color: white;
+    border-width: 0.5em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block52 {
+    grid-column-start: 7;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    background-color: white;
+    border-width: 0.5em 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block53 {
+    grid-column-start: 7;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block54 {
+    grid-column-start: 8;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0.5em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block55 {
+    grid-column-start: 9;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0.5em 0em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block56 {
+    grid-column-start: 9;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color:red;
+    border-width: 0em 0em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.block57 {
+    grid-column-start: 9;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background-color: white;
+    border-width: 0em 0em 0em 0.5em;
+    border-style: solid;
+    border-color: black;
+
+}
